@@ -7,9 +7,8 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git management https://github.com/openwrt-management/packages.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-src-git helloworld https://github.com/fw876/helloworld
-src-git passwall https://github.com/xiaorouji/openwrt-passwall
+#src-git helloworld https://github.com/fw876/helloworld
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
 src-git bootstrap https://github.com/lsydy1021/luci-theme-bootstrap-mod-17.01.git
-src-git ddnsto https://github.com/linkease/nas-packages.git
-src-git filebrowser https://github.com/mitsukileung/luci-app-filebrowser.git
-src-git openclash https://github.com/vernesong/OpenClash.git
+src-git ddnsto https://github.com/linkease/nas-packages.git;master
